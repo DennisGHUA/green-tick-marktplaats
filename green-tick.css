@@ -1,11 +1,17 @@
+/*
+
+SOURCE: https://github.com/DennisGHUA/green-tick-marktplaats
+
+*/
+
 .mp-svg-checkmark-thick--success, .mp-svg-checkmark-thick-green {
-    background: url(Sprite-3dddacc5.svg) no-repeat;
+    background: url("https://raw.githubusercontent.com/DennisGHUA/green-tick-marktplaats/main/icons/send-read.png") no-repeat;
     background-size: auto 100%;
     background-position: 0 0;
 }
 
 .mp-svg-checkmark-thick--secondary, .mp-svg-checkmark-thick-grey, .mp-svg-checkmark-thick-grey-dark {
-	background: url(Sprite-3dddacc5.svg) no-repeat;
+	background: url("https://raw.githubusercontent.com/DennisGHUA/green-tick-marktplaats/main/icons/send-unread.png") no-repeat;
     background-size: auto 100%;
     background-position: 0 0;
 }
