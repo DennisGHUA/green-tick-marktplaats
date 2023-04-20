@@ -22,6 +22,11 @@ https://userstyles.world/style/607/green-tick
     background-position: 0 0;
 }
 
+/* Disable coloring by css */
+.hz-Icon.hz-Icon--signalActionDefault {
+    filter: none;
+}
+
 
 /* Old version pre-2023*/
 .mp-svg-checkmark-thick--success, .mp-svg-checkmark-thick-green {
