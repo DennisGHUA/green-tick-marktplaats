@@ -6,6 +6,24 @@ CC BY-NC-SA 3.0
 https://userstyles.world/style/607/green-tick
 */
 
+/* Marktplaats redesign 2023*/
+
+/* read:   hz-Icon hz-Icon--s hz-Icon--signalActionDefault hz-SvgIcon hz-SvgIconMessageRead*/
+/* unread: hz-Icon hz-Icon--s hz-Icon--textTertiary hz-SvgIcon hz-SvgIconMessageRead*/
+
+.hz-Icon--signalActionDefault {
+    background: url("https://raw.githubusercontent.com/DennisGHUA/green-tick-marktplaats/main/icons/send-read_2023.png") no-repeat;
+    background-size: auto 100%;
+    background-position: 0 0;
+}
+.hz-Icon--textTertiary {
+	background: url("https://raw.githubusercontent.com/DennisGHUA/green-tick-marktplaats/main/icons/send-unread_2023.png") no-repeat;
+    background-size: auto 100%;
+    background-position: 0 0;
+}
+
+
+/* Old version pre-2023*/
 .mp-svg-checkmark-thick--success, .mp-svg-checkmark-thick-green {
     background: url("https://raw.githubusercontent.com/DennisGHUA/green-tick-marktplaats/main/icons/send-read.png") no-repeat;
     background-size: auto 100%;
