@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           green-tick
 @namespace      userstyles.world
-@version        2.0.0
+@version        2.0.1
 ==/UserStyle== */
 /*
 
@@ -18,12 +18,12 @@ https://userstyles.world/style/607/green-tick
 /* read:   hz-Icon hz-Icon--s hz-Icon--signalActionDefault hz-SvgIcon hz-SvgIconMessageRead*/
 /* unread: hz-Icon hz-Icon--s hz-Icon--textTertiary hz-SvgIcon hz-SvgIconMessageRead*/
 
-.hz-Icon--signalActionDefault {
+.MessageReadStatusAtom-iconWrapper > .hz-Icon--signalActionDefault {
     background: url("https://raw.githubusercontent.com/DennisGHUA/green-tick-marktplaats/main/icons/send-read_2023.png") no-repeat;
     background-size: auto 100%;
     background-position: 0 0;
 }
-.hz-Icon--textTertiary {
+.MessageReadStatusAtom-iconWrapper > .hz-Icon--textTertiary {
 	background: url("https://raw.githubusercontent.com/DennisGHUA/green-tick-marktplaats/main/icons/send-unread_2023.png") no-repeat;
     background-size: auto 100%;
     background-position: 0 0;
