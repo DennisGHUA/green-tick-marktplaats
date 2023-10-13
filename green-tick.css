@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           green-tick
 @namespace      userstyles.world
-@version        2.0.1
+@version        2.0.2
 ==/UserStyle== */
 /*
 
@@ -15,35 +15,18 @@ https://userstyles.world/style/607/green-tick
 
 /* Marktplaats redesign 2023*/
 
-/* read:   hz-Icon hz-Icon--s hz-Icon--signalActionDefault hz-SvgIcon hz-SvgIconMessageRead*/
-/* unread: hz-Icon hz-Icon--s hz-Icon--textTertiary hz-SvgIcon hz-SvgIconMessageRead*/
+/* read:   hz-Icon hz-Icon--s hz-Icon--signalActionDefault hz-SvgIcon hz-SvgIconMessageRead */
+/* unread: hz-Icon hz-Icon--s hz-Icon--textTertiary        hz-SvgIcon hz-SvgIconMessageRead */
 
-.MessageReadStatusAtom-iconWrapper > .hz-Icon--signalActionDefault {
+.MessageReadStatus-module-iconWrapper > .hz-SvgIconMessageRead.hz-Icon--signalActionDefault {
     background: url("https://raw.githubusercontent.com/DennisGHUA/green-tick-marktplaats/main/icons/send-read_2023.png") no-repeat;
     background-size: auto 100%;
     background-position: 0 0;
+    filter: none;
 }
-.MessageReadStatusAtom-iconWrapper > .hz-Icon--textTertiary {
+.MessageReadStatus-module-iconWrapper > .hz-SvgIconMessageRead.hz-Icon--textTertiary {
 	background: url("https://raw.githubusercontent.com/DennisGHUA/green-tick-marktplaats/main/icons/send-unread_2023.png") no-repeat;
     background-size: auto 100%;
     background-position: 0 0;
-}
-
-/* Disable coloring by css */
-.hz-Icon.hz-Icon--signalActionDefault {
     filter: none;
-}
-
-
-/* Old version pre-2023*/
-.mp-svg-checkmark-thick--success, .mp-svg-checkmark-thick-green {
-    background: url("https://raw.githubusercontent.com/DennisGHUA/green-tick-marktplaats/main/icons/send-read.png") no-repeat;
-    background-size: auto 100%;
-    background-position: 0 0;
-}
-
-.mp-svg-checkmark-thick--secondary, .mp-svg-checkmark-thick-grey, .mp-svg-checkmark-thick-grey-dark {
-	background: url("https://raw.githubusercontent.com/DennisGHUA/green-tick-marktplaats/main/icons/send-unread.png") no-repeat;
-    background-size: auto 100%;
-    background-position: 0 0;
 }
