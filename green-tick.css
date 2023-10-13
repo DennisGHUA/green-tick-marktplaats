@@ -5,6 +5,16 @@
 @description    Makes the checkmarks easier to read on marktplaats.nl
 ==/UserStyle== */
 
+/*
+
+SOURCE CODE: https://github.com/DennisGHUA/green-tick-marktplaats
+License MIT
+
+Download the css from one of these mirrors:
+https://userstyles.world/style/607/green-tick
+https://userstyles.org/styles/270723
+*/
+
 /* Only apply the following styles on marktplaats.nl */
 @-moz-document domain("marktplaats.nl") {
 
